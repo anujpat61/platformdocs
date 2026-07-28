@@ -184,6 +184,7 @@ In the **Configuration** tab of your OneLogin application, set the following:
 
 | OneLogin Field | Value |
 |----------------|-------|
+| **RelayState** | `<tenant-id>` |
 | **Audience (EntityID)** | Copy from Quilr's SP Metadata XML (EntityID) |
 | **Recipient** | `https://<your-quilr-domain>/bff/auth/auth/saml/callback` |
 | **ACS (Consumer) URL** | `https://<your-quilr-domain>/bff/auth/auth/saml/callback` |
