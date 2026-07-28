@@ -64,7 +64,7 @@ In the **Configure SAML** step, set the following:
 | **Single sign-on URL** | `https://<your-quilr-domain>/bff/auth/auth/saml/callback` |
 | **Use this for Recipient URL and Destination URL** | ✓ Checked |
 | **Audience URI (SP Entity ID)** | `https://<your-quilr-domain>/bff/auth/saml/metadata/<tenant-id>` |
-| **Default RelayState** | `<tenant_id>` |
+| **Default RelayState** | `<tenant-id>` |
 | **Name ID format** | EmailAddress |
 | **Application username** | Email |
 
@@ -184,6 +184,7 @@ In the **Configuration** tab of your OneLogin application, set the following:
 
 | OneLogin Field | Value |
 |----------------|-------|
+| **RelayState** | `<tenant-id>` |
 | **Audience (EntityID)** | Copy from Quilr's SP Metadata XML (EntityID) |
 | **Recipient** | `https://<your-quilr-domain>/bff/auth/auth/saml/callback` |
 | **ACS (Consumer) URL** | `https://<your-quilr-domain>/bff/auth/auth/saml/callback` |
