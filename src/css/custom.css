@@ -859,6 +859,12 @@ main > .container.padding-top--md.padding-bottom--lg,
 
 .menu__list-item-collapsible {
   border-radius: 0.5rem;
+  /* Infima defaults to wrap; keep caret on the same row as long labels */
+  flex-wrap: nowrap;
+}
+
+.menu__list-item-collapsible > .menu__link {
+  min-width: 0;
 }
 
 /* Dark sidebar */
@@ -892,6 +898,8 @@ main > .container.padding-top--md.padding-bottom--lg,
 }
 
 .sidebar-link-label {
+  flex: 1;
+  min-width: 0;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -918,6 +926,7 @@ main > .container.padding-top--md.padding-bottom--lg,
 
 /* ────────────────────────────────── Sidebar caret ────────────────────── */
 .menu__list-item-collapsible .clean-btn.menu__caret {
+  flex-shrink: 0;
   color: var(--color-neutral-400);
   transition:
     background var(--ifm-transition-fast) var(--ifm-transition-timing-default),

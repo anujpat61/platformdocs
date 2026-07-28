@@ -71,6 +71,14 @@ QuilrAI helps security, governance, and IT teams discover AI usage, understand r
     </p>
   </div>
   <div className="rounded-xl border border-[#c7b99f] bg-[#ebe1cf] p-5 dark:border-[#30343b] dark:bg-[#1f232a]">
+    <Bot className="mb-3 text-emerald-600 dark:text-emerald-400" size={24} />
+    <h2 className="m-0 text-lg font-semibold text-[#252018] dark:text-neutral-50">Quilly</h2>
+    <p className="mb-0 mt-2 text-sm leading-6 text-[#554c3f] dark:text-neutral-400">
+      Review security coaching conversations in Slack and Microsoft Teams — finding-linked outreach,
+      proactive coaching, and user-initiated policy questions.
+    </p>
+  </div>
+  <div className="rounded-xl border border-[#c7b99f] bg-[#ebe1cf] p-5 dark:border-[#30343b] dark:bg-[#1f232a]">
     <Network className="mb-3 text-emerald-600 dark:text-emerald-400" size={24} />
     <h2 className="m-0 text-lg font-semibold text-[#252018] dark:text-neutral-50">Gateways</h2>
     <p className="mb-0 mt-2 text-sm leading-6 text-[#554c3f] dark:text-neutral-400">
@@ -106,6 +114,10 @@ AI Inventory helps teams track AI assets and AI activity sources from one place.
 ### [Controls](./platform-areas/controls.md)
 
 Controls let teams operationalize policy. Customers can browse controls by posture, filter by system or custom controls, add or update controls, duplicate existing controls, toggle status, and choose monitor or action mode.
+
+### [Quilly](./platform-areas/quilly.md)
+
+Quilly is Quilr's security coaching bot in Slack and Microsoft Teams. Security teams can review finding-linked coaching, proactive outreach, and user-initiated conversations from the Quilly Conversations drawer, User Lens, and finding cards.
 
 ### [Detection Models](./platform-areas/detection-models.md)
 

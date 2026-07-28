@@ -30,6 +30,8 @@ Common use cases:
 - Review privileged users using AI.
 - Find users associated with sensitive uploads or coaching events.
 - Open user conversations for deeper review.
+- Review Quilly coaching interactions for a specific user from the **Quilly** tab in User Lens.
+  See [Quilly](./quilly.md) for details on interaction types and review workflows.
 
 The Smart Groups drawer previously available on the Users page has been removed. Smart group
 creation and membership management are now handled from the dedicated
@@ -102,6 +104,7 @@ Common use cases:
 - [Smart Groups](./smart-groups.md)
 - [AI Inventory](./ai-inventory.md)
 - [Controls](./controls.md)
+- [Quilly](./quilly.md)
 - [Audit Log And Exports](./audit-log-and-exports.md)
 
 ## Access Requirements

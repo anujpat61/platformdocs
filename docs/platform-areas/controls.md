@@ -37,6 +37,9 @@ Use Controls when you want to:
   enforcement action.
 - **Action:** QuilrAI applies the configured action when the control condition is met.
 
+Controls configured to **coach** can trigger Quilly outreach in Slack and Microsoft Teams. Review
+coaching outcomes in [Quilly](./quilly.md).
+
 ## Main Workflows
 
 1. Open Controls.
@@ -50,6 +53,7 @@ Use Controls when you want to:
 - [Findings](./findings.md)
 - [Detection Models](./detection-models.md)
 - [Users, Applications, And Accounts](./users-accounts-applications.md)
+- [Quilly](./quilly.md)
 - [Settings And Administration](./settings-admin.md)
 
 ## Access Requirements

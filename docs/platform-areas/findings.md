@@ -34,7 +34,8 @@ platform. It is the main place to move from summary signals into detailed eviden
 - Navigate from app, user, and account pages into filtered finding views.
 - Review LLM Gateway findings from a logs-backed V2 view when enabled.
 - Review Compliance Findings by provider, detection scope, user, category, and subcategory.
-- Open related conversations or interaction details from finding rows where available.
+- Open related Quilly coaching conversations from finding cards where a **Quilly** badge is shown.
+  See [Quilly](./quilly.md) for details on reviewing engagement history.
 
 ## Finding Insights Time Ranges
 
@@ -80,6 +81,7 @@ to inspect the source and content evidence.
 - [Browser Extension](./browser-extension.md)
 - [Endpoint Agent](./endpoint-agent.md)
 - [Controls](./controls.md)
+- [Quilly](./quilly.md)
 - [Settings And Administration](./settings-admin.md)
 
 ## Access Requirements

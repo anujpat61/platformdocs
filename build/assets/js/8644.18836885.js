@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkquilrai_platform_docs=globalThis.webpackChunkquilrai_platform_docs||[]).push([[8644],{8644(a,r,c){c.d(r,{createArchitectureServices:()=>e.S});var e=c(5877);c(6902)}}]);

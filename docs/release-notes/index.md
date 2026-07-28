@@ -8,6 +8,14 @@ hide_copy_dropdown: true
 
 # Release Notes
 
+## July 16, 2026
+
+### New
+
+- [Quilly](/platform-areas/quilly): Quilr's security
+  coaching bot in Slack and Microsoft Teams. The guide covers interaction types (Findings, Coach,
+  and User Initiated), where to review conversations in the platform, and main review workflows.
+
 ## June 26, 2026
 
 ### New
@@ -121,6 +129,7 @@ hide_copy_dropdown: true
   included in the export. The limit is tenant-configured and defaults to 5,000 rows when no custom
   configuration is set. Admins see the limit before confirming an export, so unexpectedly truncated
   downloads are less likely.
+
 ## June 23, 2026
 
 ### Improved
@@ -151,6 +160,7 @@ hide_copy_dropdown: true
   workspace skills with creator, file count, agent cross-references, and skill name chips that
   link directly from conversation and agent run views. **Apps** is a new product showing OpenAI
   app activity, auth events, returned resources, and per-app user reach.
+
 ## June 22, 2026
 
 ### New
@@ -212,6 +222,7 @@ hide_copy_dropdown: true
   URL. OpenAI Assistants Azure requires an API key and an Azure endpoint, and accepts an optional
   Azure API version. Like embeddings and rerank providers, both are available for gateway use but
   are not used as standard routing targets.
+
 ## June 18, 2026
 
 ### Fixed

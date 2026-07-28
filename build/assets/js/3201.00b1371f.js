@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkquilrai_platform_docs=globalThis.webpackChunkquilrai_platform_docs||[]).push([[3201],{3201(a,i,e){e.d(i,{createPieServices:()=>l.f});var l=e(7761);e(6902)}}]);

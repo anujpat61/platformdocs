@@ -33,3 +33,4 @@ This connector integrates Microsoft Teams with Quilr, allowing secure access to 
 - Sends security alerts to Teams channels.
 - Monitors Teams activity for security insights.
 - Facilitates communication with end users.
+- Enables Quilly security coaching for end users in Microsoft Teams.

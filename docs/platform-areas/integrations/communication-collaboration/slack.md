@@ -42,3 +42,4 @@ Integrate Slack with Quilr to streamline team communication, improve collaborati
 - Enables interactive bot communication within Slack.
 - Allows users to respond to security workflows via Slack.
 - Facilitates collaboration across teams and channels.
+- Enables Quilly security coaching for end users in Slack.

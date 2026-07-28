@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkquilrai_platform_docs=globalThis.webpackChunkquilrai_platform_docs||[]).push([[5187],{5187(a,e,r){r.d(e,{createTreemapServices:()=>i.d});var i=r(1592);r(6902)}}]);
