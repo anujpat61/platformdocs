@@ -52,6 +52,22 @@ it, including MCP Gateway access control rules and LLM Gateway self-service acce
 deletion carefully — any access rules or gateway configurations that target the group will no longer
 have a matching group to evaluate.
 
+### Groups Converted from Microsoft Entra ID
+
+Smart groups can also be created by mirroring Microsoft Entra ID groups through the
+**IDP to Smart Group** utility on the Microsoft Entra ID integration. Those groups appear on the
+Smart Groups screen with the label **Converted from IDP group**.
+
+For IDP-converted groups:
+
+- Membership is managed from the Entra integration utility, not by manually adding or removing users
+  here.
+- The group cannot be deleted from this screen.
+- Members are matched by email; Entra members without a matching Quilr user are skipped.
+
+See [Microsoft Entra ID — IDP to Smart Group](./integrations/identity-providers/microsoft-entra-id.md#idp-to-smart-group)
+for setup steps and save behaviors.
+
 ## How Smart Groups Are Used Across the Platform
 
 Smart groups defined here are referenced in other platform areas as an access-control and scoping
@@ -70,6 +86,7 @@ mechanism:
 ## Related Platform Areas
 
 - [Users, Applications, and Accounts](./users-accounts-applications.md)
+- [Microsoft Entra ID](./integrations/identity-providers/microsoft-entra-id.md)
 - [Controls](./controls.md)
 - [MCP Gateway](./mcp-gateway.md)
 - [LLM Gateway](./llm-gateway.md)

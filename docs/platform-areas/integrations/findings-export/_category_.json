@@ -1,0 +1,11 @@
+{
+  "label": "Findings Export",
+  "position": 10,
+  "link": {
+    "type": "generated-index",
+    "description": "Generate and manage static API keys for programmatic findings export."
+  },
+  "customProps": {
+    "icon": "KeyRound"
+  }
+}
