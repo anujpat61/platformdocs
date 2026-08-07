@@ -24,9 +24,8 @@ Microsoft Entra ID (formerly Azure AD) secures identities and access, enhanced b
 
 | Scope Group | Permissions | Purpose |
 |-------------|-------------|---------|
-| User Information | `openid`, `profile`, `offline_access`, `User.Read.All`, `User.ReadBasic.All`, `User.Read`, `Domain.Read.All` | Allows Quilr to access user details from Microsoft Entra ID to help improve your organization's security posture. |
-| Enterprise Applications | `Directory.Read.All`, `Application.Read.All`, `AuditLog.Read.All`, `Reports.Read.All` | Allows Quilr to read application details, audit logs, and reports from Microsoft Entra ID to help improve your organization's security posture. |
-| Devices | `DeviceManagementManagedDevices.Read.All` | Allows Quilr to read device details from Microsoft Entra ID to help improve your organization's security posture. |
+| User Information | `openid`, `profile`, `offline_access`, `User.Read.All`, `Domain.Read.All` | Allows Platform to access user details from Microsoft Entra ID to help improve your organization's security posture. |
+| Enterprise Applications | `Directory.Read.All`, `Application.Read.All` | Allows Platform to read application details from Microsoft Entra ID to help improve your organization's security posture. |
 
 ## What This Integration Does
 
