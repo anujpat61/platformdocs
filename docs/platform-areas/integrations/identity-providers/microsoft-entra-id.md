@@ -27,6 +27,19 @@ Microsoft Entra ID (formerly Azure AD) secures identities and access, enhanced b
 | User Information | `openid`, `profile`, `offline_access`, `User.Read.All`, `Domain.Read.All` | Allows Platform to access user details from Microsoft Entra ID to help improve your organization's security posture. |
 | Enterprise Applications | `Directory.Read.All`, `Application.Read.All` | Allows Platform to read application details from Microsoft Entra ID to help improve your organization's security posture. |
 
+### Scope justifications (Microsoft Entra / Graph)
+
+
+| Permission | Usage |
+|------------|--------|
+| `openid` | Completes the OAuth consent / sign-in flow when an admin connects Microsoft Entra ID (Microsoft: **Sign you in**; ID token `sub` claim). |
+| `profile` | Identifies the consenting admin from ID token profile claims (name, preferred username, object ID). |
+| `offline_access` | Obtains a refresh token so fabrics can call Microsoft Graph on a schedule without re-prompting the admin (Microsoft: **Maintain access to data you have given it access to**). |
+| `User.Read.All` | Lists and reads full user profiles and managers (`GET /users`, `GET /users/{id}`, `GET /users/{id}/manager`) for identity ingestion and security checks. |
+| `Domain.Read.All` | Reads verified tenant domain properties so the platform can correlate the connected Entra tenant with organizational domains. |
+| `Directory.Read.All` | Reads directory data such as groups and membership (`GET /groups`, members / delta), directory roles, and related objects used by identity fabric and IDP → Smart Group. |
+| `Application.Read.All` | Discovers enterprise applications via service principals (`GET /servicePrincipals`) and app role assignments (`appRoleAssignedTo`) for application posture. |
+
 ## What This Integration Does
 
 - Collects users along with their department, group, and role assignments.
