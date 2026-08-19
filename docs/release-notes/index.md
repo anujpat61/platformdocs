@@ -8,6 +8,18 @@ hide_copy_dropdown: true
 
 # Release Notes
 
+## August 19, 2026
+
+### New
+
+- [Integrations](/platform-areas/integrations/manage-users/idp-group-to-platform-roles): Added
+  **IDP Group to Platform Roles**. After Microsoft Entra ID is connected, admins can map Entra
+  groups to platform roles — either a system role (for example Viewer or Super Admin) or a custom
+  role. Members of each mapped group receive that role within 5 to 6 minutes of saving a group or
+  changing its role. Later Entra add or remove events keep the assignment in sync on the same
+  interval. Saving is one-way: a mapped group stays mapped and cannot be removed or reassigned from
+  this screen. This utility does not change Smart Groups.
+
 ## July 16, 2026
 
 ### New

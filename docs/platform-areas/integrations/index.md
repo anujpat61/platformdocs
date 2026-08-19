@@ -36,6 +36,7 @@ Connectors are organized into the following categories:
 
 - **Data Forwarding:** [Webhook](./data-forwarding/webhook.md), [Syslog](./data-forwarding/syslog.md), [Syslog Audit](./data-forwarding/syslog-audit.md), [Email](./data-forwarding/email.md).
 - **Identity Providers:** [Microsoft Entra ID](./identity-providers/microsoft-entra-id.md), [Google Workspace](./identity-providers/google-workspace.md), [Okta](./identity-providers/okta.md), [Ping Identity](./identity-providers/ping-identity.md).
+- **Manage Users:** [IDP Group to Platform Roles](./manage-users/idp-group-to-platform-roles.md).
 - **Single Sign-On:** [SAML](./single-sign-on/saml.md).
 - **Microsoft Ecosystem:** [Microsoft Purview](./microsoft-ecosystem/microsoft-purview.md), [Microsoft Calendar](./microsoft-ecosystem/microsoft-calendar.md).
 - **Google Ecosystem:** [Google Calendar](./google-ecosystem/google-calendar.md), [Google Drive](./google-ecosystem/google-drive.md).

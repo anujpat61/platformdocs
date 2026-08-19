@@ -50,6 +50,13 @@ app access for users assigned the AI Gateway Admin role. The **App Access** cont
 when creating a new user or editing an existing one, and lets the admin choose between allowing all
 LLM Gateway apps or restricting access to a specific subset.
 
+Platform roles can also be assigned from Entra groups through the
+[IDP Group to Platform Roles](./integrations/manage-users/idp-group-to-platform-roles.md)
+integration. You can map a group to a system role or a custom role. Members of each mapped group
+receive the chosen role in 5 to 6 minutes and stay aligned as Entra membership changes. That
+workflow is one-way from the integration screen: a saved group cannot be unmapped or reassigned
+there. It does not affect [Smart Groups](./smart-groups.md).
+
 The App Access control is also available directly in the users table — for AI Gateway Admin users,
 a compact selector shows the current access state and can be updated without opening the full edit
 panel.
@@ -82,6 +89,7 @@ Administrators with write access can save and revoke registered keys.
 ## Related Platform Areas
 
 - [Smart Groups](./smart-groups.md)
+- [IDP Group to Platform Roles](./integrations/manage-users/idp-group-to-platform-roles.md)
 - [Browser Extension](./browser-extension.md)
 - [Endpoint Agent](./endpoint-agent.md)
 - [AI Gateway](./ai-gateway.md)

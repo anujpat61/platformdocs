@@ -136,7 +136,7 @@ Browser Extension and Endpoint Agent settings cover deployment, deployment manag
 
 ### [Integrations](./platform-areas/integrations/index.md)
 
-Integrations help connect QuilrAI to identity providers, device management systems, SaaS platforms, cloud services, and AI services. The current platform includes connected and available connector views, instance configuration, and integration documentation for Okta, Jamf, ChatGPT, and AWS.
+Integrations help connect QuilrAI to identity providers, device management systems, SaaS platforms, cloud services, and AI services. The current platform includes connected and available connector views, instance configuration, and integration documentation for Microsoft Entra ID, IDP Group to Platform Roles, Okta, Jamf, ChatGPT, and AWS.
 
 ### [Settings And Administration](./platform-areas/settings-admin.md)
 

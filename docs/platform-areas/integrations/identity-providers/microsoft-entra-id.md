@@ -47,6 +47,9 @@ Microsoft Entra ID (formerly Azure AD) secures identities and access, enhanced b
 - Surfaces identity security posture through Quilr's Identity Security Checks.
 - Mirrors selected Entra ID groups into Quilr [Smart Groups](../../smart-groups.md) through the
   **IDP to Smart Group** utility.
+- Provides group listing for
+  [IDP Group to Platform Roles](../manage-users/idp-group-to-platform-roles.md), which assigns
+  platform roles to Entra group members. That utility does not change Smart Groups.
 
 ## IDP to Smart Group
 
@@ -84,6 +87,7 @@ available on the [Smart Groups](../../smart-groups.md) screen with the label
 
 ### Related Platform Areas
 
+- [IDP Group to Platform Roles](../manage-users/idp-group-to-platform-roles.md)
 - [Smart Groups](../../smart-groups.md)
 - [Controls](../../controls.md)
 - [MCP Gateway](../../mcp-gateway.md)
