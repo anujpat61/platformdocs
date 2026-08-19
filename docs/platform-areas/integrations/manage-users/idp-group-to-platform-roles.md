@@ -24,8 +24,7 @@ This integration is separate from **IDP to Smart Group**. It assigns platform ac
 - A connected **[Microsoft Entra ID](../identity-providers/microsoft-entra-id.md)** instance with
   valid Microsoft consent. Group listing uses that instance's existing consent token.
 - User Management permission to assign platform roles.
-- At least one platform role in the organization. You can assign a **system** role (built-in, such
-  as Viewer, Admin, or Super Admin) or a **custom** role created for the organization.
+- At least one system platform role in the organization, such as Viewer, Admin, or Super Admin.
 
 ## Setup
 
@@ -46,7 +45,7 @@ changes.
 ## What This Integration Does
 
 - Lists Entra groups from the connected Microsoft Entra ID instance.
-- Maps each selected group to one platform role — either a **system** role or a **custom** role.
+- Maps each selected group to one **system** platform role, such as Viewer, Admin, or Super Admin.
 - Provisions or updates platform users from current group members and assigns that role. The
   assignment typically appears in **5 to 6 minutes** after you save.
 - Keeps membership aligned with Entra after the first save:
@@ -66,14 +65,9 @@ You can add more groups later. Unsaved rows can still be removed or have their r
 
 ### Assign a role
 
-Before saving, click **Change role** on a selected group and choose one platform role. The picker
-lists both role types:
-
-- **System roles** — built-in platform roles, such as Viewer, Admin, or Super Admin.
-- **Custom roles** — roles created for this organization in Manage Users.
-
-Each option shows a **system** or **custom** label. Other selected groups keep their own roles.
-After you save a group, its role cannot be changed from this screen.
+Before saving, click **Change role** on a selected group and choose one **system** platform role,
+such as Viewer, Admin, or Super Admin. Other selected groups keep their own roles. After you save a
+group, its role cannot be changed from this screen.
 
 Changing the role on an unsaved group, then saving, applies that role to current members in
 **5 to 6 minutes**.
@@ -91,7 +85,7 @@ reassigned here.
 |----------|--------|
 | One-way save | A group that has been saved stays mapped. You can add groups later, but you cannot remove a saved group or change its role from this utility. |
 | Default role | Newly selected groups default to **Viewer**. Change the role before saving if they should receive a different role. |
-| System and custom roles | You can map a group to a **system** role (built-in) or a **custom** role. The role picker labels each option as system or custom. |
+| System roles | You can map a group to a built-in **system** role such as Viewer, Admin, or Super Admin. |
 | Apply delay | After you save a group or change its role, allow **5 to 6 minutes** for members to receive the updated platform role. Entra add and remove events use the same delay. |
 | One role per group | Each Entra group maps to exactly one platform role. |
 | Entra required | Groups cannot be loaded until Microsoft Entra ID is connected and consent is still valid. |

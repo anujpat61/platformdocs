@@ -52,10 +52,10 @@ LLM Gateway apps or restricting access to a specific subset.
 
 Platform roles can also be assigned from Entra groups through the
 [IDP Group to Platform Roles](./integrations/manage-users/idp-group-to-platform-roles.md)
-integration. You can map a group to a system role or a custom role. Members of each mapped group
-receive the chosen role in 5 to 6 minutes and stay aligned as Entra membership changes. That
-workflow is one-way from the integration screen: a saved group cannot be unmapped or reassigned
-there. It does not affect [Smart Groups](./smart-groups.md).
+integration. You can map a group to a system role such as Viewer, Admin, or Super Admin. Members of
+each mapped group receive the chosen role in 5 to 6 minutes and stay aligned as Entra membership
+changes. That workflow is one-way from the integration screen: a saved group cannot be unmapped or
+reassigned there. It does not affect [Smart Groups](./smart-groups.md).
 
 The App Access control is also available directly in the users table — for AI Gateway Admin users,
 a compact selector shows the current access state and can be updated without opening the full edit
