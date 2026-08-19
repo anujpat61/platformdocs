@@ -24,7 +24,11 @@ This connector integrates Azure AI Foundry and Azure Machine Learning Studio wit
 
 | Scope Group | Permissions | Purpose |
 |-------------|-------------|---------|
-| Azure Access | `openid`, `profile`, `offline_access` | Allows Quilr to access Azure management APIs for retrieving AI/ML resources. |
+| Sign-in and offline access | `openid`, `profile`, `offline_access` | Identifies the Azure AD tenant and obtains a refresh token for ongoing access. |
+| Azure Management API | `https://management.azure.com/user_impersonation` | Discovers subscriptions, storage accounts, and blob containers via Azure Resource Manager. |
+| Azure Blob Storage (optional) | `https://storage.azure.com/user_impersonation` | Reads Azure Storage data-plane APIs when needed. |
+
+In addition to these OAuth scopes, the consented identity needs Azure RBAC **Reader** (or equivalent) on subscriptions/storage accounts so ARM can discover accounts and list blob containers.
 
 ## What This Integration Does
 

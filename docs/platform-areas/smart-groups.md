@@ -68,6 +68,11 @@ For IDP-converted groups:
 See [Microsoft Entra ID — IDP to Smart Group](./integrations/identity-providers/microsoft-entra-id.md#idp-to-smart-group)
 for setup steps and save behaviors.
 
+To assign **platform roles** (for example Viewer or Super Admin) from Entra groups instead of
+mirroring Smart Groups, use
+[IDP Group to Platform Roles](./integrations/manage-users/idp-group-to-platform-roles.md). The two
+utilities are independent.
+
 ## How Smart Groups Are Used Across the Platform
 
 Smart groups defined here are referenced in other platform areas as an access-control and scoping
@@ -87,6 +92,7 @@ mechanism:
 
 - [Users, Applications, and Accounts](./users-accounts-applications.md)
 - [Microsoft Entra ID](./integrations/identity-providers/microsoft-entra-id.md)
+- [IDP Group to Platform Roles](./integrations/manage-users/idp-group-to-platform-roles.md)
 - [Controls](./controls.md)
 - [MCP Gateway](./mcp-gateway.md)
 - [LLM Gateway](./llm-gateway.md)

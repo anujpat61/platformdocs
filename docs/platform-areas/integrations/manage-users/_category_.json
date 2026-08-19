@@ -1,0 +1,11 @@
+{
+  "label": "Manage Users",
+  "position": 2.5,
+  "link": {
+    "type": "generated-index",
+    "description": "Map identity-provider groups to QuilrAI platform users and roles."
+  },
+  "customProps": {
+    "icon": "Users"
+  }
+}
